@@ -9,16 +9,16 @@ public class QueueReview {
         // 2. Printer Queue
         // 3. Linked Lists, Priority Queues, BFS
 
-        // queue Declaration
+        // queue declaration
         Queue<String> queue = new LinkedList<>();
 
         // queue enqueue
-       queue.offer("Japan");
-       queue.offer("Korea");
-       queue.offer("Taiwan");
-       queue.offer("Hongkong");
-       queue.offer("Singapore");
-       queue.offer("Philippines");
+        queue.offer("Japan");
+        queue.offer("Korea");
+        queue.offer("Taiwan");
+        queue.offer("Hongkong");
+        queue.offer("Singapore");
+        queue.offer("Philippines");
 
         System.out.println(queue);
 
